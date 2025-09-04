@@ -1,0 +1,22 @@
+{
+  "godaddy_api_key": "h1Jnz3FAd39j_AKYaKJJPi2hzsRBVteGz6Z",
+  "godaddy_api_secret": "ChSEbwRi3S9FB5zUWcZrmB",
+  "cloudflare_api_key": "fb823edcb09903f2d0595e0135d8a8808fda6",
+  "cloudflare_email": "yy1400002030@gmail.com",
+  "cloudflare_account_id": "e335fae5ba55e4d895ac53c98fbde1a3",
+  "database_path": "./domains.db",
+  "log_level": "INFO",
+  "max_retries": 3,
+  "retry_delay": 2,
+  "godaddy_client_type": "new",
+  "auto_update_nameservers": true,
+  "confirm_ns_update": false,
+  "ns_update_timeout": 30,
+  "ns_verification_delay": 5,
+  "default_target_ip": "141.164.43.115", 
+  "max_concurrent_threads": 3,
+  "thread_pool_timeout": 300,
+  "refresh_batch_size": 50,
+  "refresh_timeout": 30,
+  "enable_full_refresh": true
+}

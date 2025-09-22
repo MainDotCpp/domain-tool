@@ -128,7 +128,6 @@ class GoDaddyAPIClient:
                         import time
                         time.sleep(2 ** attempt)  # 指数退避
                 
-                logger.info(f"response_data: {response_data}")
                 if not response_data:
                     logger.info("没有更多数据，结束获取")
                     break
